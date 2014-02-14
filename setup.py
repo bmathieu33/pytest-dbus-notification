@@ -1,6 +1,6 @@
 from setuptools import setup
 
-__VERSION__ = '1.0.0'
+__VERSION__ = '1.0.0dev'
 
 classifiers=[
     'Development Status :: 5 - Production/Stable',
@@ -16,6 +16,7 @@ classifiers=[
 setup(
     author="Bertrand Mathieu",
     author_email="bert.mathieu at gmail.com",
+    url='https://github.com/bmathieu33/pytest-dbus-notification',
     version=__VERSION__,
     description="D-BUS notifications for pytest results.",
     long_description=open('README.rst', 'rt').read(),
