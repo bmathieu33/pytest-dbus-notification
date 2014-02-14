@@ -4,8 +4,6 @@ from __future__ import absolute_import
 from setuptools import setup
 import codecs
 
-__VERSION__ = '1.0.0dev'
-
 def read(filename):
     return unicode(codecs.open(filename, encoding='utf-8').read())
 
@@ -28,7 +26,7 @@ setup(
     author="Bertrand Mathieu",
     author_email="bert.mathieu at gmail.com",
     url='https://github.com/bmathieu33/pytest-dbus-notification',
-    version=__VERSION__,
+    version='1.0.0dev',
     description="D-BUS notifications for pytest results.",
     long_description=long_description,
     name="pytest-dbus-notification",
