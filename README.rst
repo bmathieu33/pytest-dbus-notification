@@ -5,8 +5,8 @@ This plugins requires the `dbus` module.
 Using in virtualenv
 -------------------
 
-As of 14 feb 2014, `you cannot install python-dbus with
-pip/easy_install<https://bugs.freedesktop.org/show_bug.cgi?id=55439>`_.
+As of 14 feb 2014, `you cannot install python-dbus with pip/easy_install
+<https://bugs.freedesktop.org/show_bug.cgi?id=55439>`_.
 
 You have two options:
 
