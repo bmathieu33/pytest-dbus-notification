@@ -26,7 +26,7 @@ setup(
     author="Bertrand Mathieu",
     author_email="bert.mathieu at gmail.com",
     url='https://github.com/bmathieu33/pytest-dbus-notification',
-    version='1.0.0dev',
+    version='1.0.0',
     description="D-BUS notifications for pytest results.",
     long_description=long_description,
     name="pytest-dbus-notification",
