@@ -1,6 +1,17 @@
+# coding=utf-8
+from __future__ import absolute_import
+
 from setuptools import setup
+import codecs
 
 __VERSION__ = '1.0.0dev'
+
+def read(filename):
+    return unicode(codecs.open(filename, encoding='utf-8').read())
+
+
+long_description = '\n\n'.join([read('README.rst'),
+                                read('CHANGES.rst')])
 
 classifiers=[
     'Development Status :: 5 - Production/Stable',
@@ -19,7 +30,7 @@ setup(
     url='https://github.com/bmathieu33/pytest-dbus-notification',
     version=__VERSION__,
     description="D-BUS notifications for pytest results.",
-    long_description=open('README.rst', 'rt').read(),
+    long_description=long_description,
     name="pytest-dbus-notification",
     keywords="pytest, pytest-, dbus, py.test",
     classifiers=classifiers,
