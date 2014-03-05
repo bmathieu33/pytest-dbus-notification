@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-1.0.1 (unreleased)
+1.0.1 (2014-03-05)
 ==================
 
 - Fixed packaging
