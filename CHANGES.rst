@@ -4,7 +4,7 @@ Changelog
 1.0.1 (unreleased)
 ==================
 
-- Nothing changed yet.
+- Fixed packaging
 
 
 1.0.0 (2014-02-14)
