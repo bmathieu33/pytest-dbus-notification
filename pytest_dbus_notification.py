@@ -55,7 +55,7 @@ def notify(title, status, results):
     icon = notification['icon']
     actions = []
     hints = { 'transient': True }
-    timeout = 1000 * 30 # 30s timeout
+    timeout = 1000 * 10 # 10s timeout
 
     bus = dbus.SessionBus()
     notifier = bus.get_object('org.freedesktop.Notifications',
