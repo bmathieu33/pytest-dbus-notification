@@ -61,4 +61,4 @@ def notify(title, status, results):
     notifier = bus.get_object('org.freedesktop.Notifications',
                               '/org/freedesktop/Notifications')
     iface = dbus.Interface(notifier, 'org.freedesktop.Notifications')
-    iface.Notify('py test', 0, icon, title, body, actions, hints, timeout)
+    iface.Notify('pytest', 0, icon, title, body, actions, hints, timeout)
