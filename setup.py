@@ -5,7 +5,13 @@ from setuptools import setup
 import codecs
 
 def read(filename):
-    return unicode(codecs.open(filename, encoding='utf-8').read())
+    try:
+        data = codecs.open(filename, encoding='utf-8').read()
+        # Python 2 backwards compatibility
+        return unicode(data)
+    except NameError:
+        # Python 3
+        return data
 
 
 long_description = '\n\n'.join([read('README.rst'),
